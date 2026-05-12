@@ -1,3 +1,33 @@
-.card1 {
-    background-color: rgb(179, 179, 179)
+
+
+h1 {
+    text-align: center;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #2f4f4f;
+    padding: 1rem;
+}
+
+.site-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+.site-nav a:active {
+    background-color: rgba(255, 255, 255, 0.25);
 }
