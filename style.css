@@ -1,7 +1,56 @@
 
 
+body {
+    background-color: #222;
+}
+
+body.about-page {
+    background-color: #d6d6c6;
+}
+
+.about-page h2 {
+    margin-top: 4rem;
+}
+
+.vertical-line {
+    position: fixed;
+    left: 5%;
+    top: 4rem;
+    bottom: 0;
+    width: 3px;
+    background-color: #f7da6f;
+    opacity: 0.55;
+    z-index: 0;
+}
+
+.vertical-line.secondary {
+    left: 8%;
+}
+
+.horizontal-line {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #f7da6f;
+    opacity: 0.55;
+    z-index: 0;
+}
+
+.horizontal-line.secondary {
+    bottom: 4rem;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+}
+
 h1 {
     text-align: center;
+    font-family: "tiller", sans-serif;
+    font-weight: bold;
 }
 
 .site-nav {
@@ -25,10 +74,34 @@ h1 {
 
 .site-nav a:hover,
 .site-nav a:focus {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.075);
     color: gold;
 }
 
 .site-nav a:active {
     background-color: rgba(255, 255, 255, 0.25);
+}
+
+.image-card .card-img-top {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+@media (max-width: 991px) {
+    .image-card .card-img-top {
+        height: 560px;
+    }
+}
+
+@media (max-width: 767px) {
+    .image-card .card-img-top {
+        height: 420px;
+    }
+}
+
+.image-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
