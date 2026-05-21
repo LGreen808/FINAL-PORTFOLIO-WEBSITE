@@ -1,7 +1,11 @@
-
+title {
+    font-size: 12px;
+}
 
 body {
-    background-color: #222;
+    background-image: url('Possible Background Image');
+    background-size: cover;
+    background-position: center;
 }
 
 body.about-page {
@@ -40,6 +44,10 @@ body.about-page {
 
 .horizontal-line.secondary {
     bottom: 4rem;
+}
+
+horizontal-line.third {
+    background-color: black;
 }
 
 main {
@@ -104,4 +112,24 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+/* Full-width divider used under card sections */
+.page-divider {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    opacity: 0.55;
+    margin-top: 1.5rem;
+}
+
+.bigger-card {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.bigger-card h1 {
+    font-size: 3rem;
 }
