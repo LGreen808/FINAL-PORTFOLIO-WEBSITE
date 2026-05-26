@@ -3,9 +3,12 @@ title {
 }
 
 body {
-    background-image: url('Possible Background Image');
+    background-image: url('img/Possible Background.webp');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+min-height: 100vh;
 }
 
 body.about-page {
@@ -15,6 +18,17 @@ body.about-page {
 .about-page h2 {
     margin-top: 4rem;
 }
+
+.green-text {
+    color: gold; 
+
+}
+
+.yellow-text {
+    color: rgb(0, 75, 0);
+}
+
+
 
 .vertical-line {
     position: fixed;
