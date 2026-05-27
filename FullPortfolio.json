@@ -1,47 +1,142 @@
-[
-  {
-    "image": " ",
-    "name": "Client Project",
-    "description": "This was out last project as Seniors. We had to reach out to a client, and create a website for them (if they wanted one). It was definetly practice for the real world. I reached out to our school newspaper and created a website for them.",
-    "link": "https://github.com/LGreen808/Marlboro-High-School-Hitching-Post"
-  },
+{
+  "Senior Year": [
     {
-    "image": " ",
-    "name": "Group Website",
-    "description": "",
-    "link": ""
-  },
+      "image": "",
+      "title": "The Client Project",
+      "description": "This was our last project of Senior Year, we had to pick a client and create a website for them.",
+      "link": "https://github.com/LGreen808/Marlboro-High-School-Hitching-Post"
+    },
     {
-    "image": " ",
-    "name": "Movie Posters",
-    "description": "",
-    "link": ""
-  },
+      "image": "",
+      "title": "The MHS Clubs Project",
+      "description": "Worked on this project with Hayley and Cooper. We basically made an easier way for students in this school to find clubs.",
+      "link": "https://coppercoder227.github.io/GuideToThings/"
+    },
     {
-    "image": " ",
-    "name": "JQuery Project",
-    "description": "",
-    "link": ""
-  },
+      "image": "",
+      "title": "Winter Holiday and Traditions Website",
+      "description": "This was a project that we did leading up to winter break. We had to create a website based off of a holiday, season, tradition, or celebration of our choice. I chose to do a holiday advent calendar.",
+      "link": "https://lgreen808.github.io/Holiday-Project-1/"
+    },
+      {
+      "image": "",
+      "title": "Movie Poster",
+      "description": " ",
+      "link": "https://github.com/LGreen808/Layla-NJIT-3_StarterFiles"
+    },
+       {
+      "image": "",
+      "title": "JQuery Project",
+      "description": "This was our first project of Senior Year, we had to choose a college and create a website about them.",
+      "link": ""
+    },
+       {
+      "image": "",
+      "title": "JSON Lessons",
+      "description": "This was our first project of Senior Year, we had to choose a college and create a website about them.",
+      "link": ""
+    },
+       {
+      "image": "",
+      "title": "Refresher Websites",
+      "description": "This was our first project of Senior Year, we had to choose a college and create a website about them.",
+      "link": ""
+    },
+       {
+      "image": "",
+      "title": "College Recruitment",
+      "description": "This was our first project of Senior Year, we had to choose a college and create a website about them.",
+      "link": ""
+    }
+
+
+
+
+
+
+
+
+  ],
+  "Junior Year": [
     {
-    "image": " ",
-    "name": "JSON Lessons",
-    "description": "",
-    "link": ""
-  },
+      "image": "",
+      "title": "Postcard Generator",
+      "description": "A junior year course project or achievement summary. Use this card to highlight a class milestone or capstone experience.",
+       "link": ""
+    },
     {
-    "image": " ",
-    "name": "Refresher Website",
-    "description": "",
-    "link": ""
-  },
+      "image": "",
+      "title": "Magic 8 Ball",
+      "description": "Another junior year experience, such as leadership, clubs, or academic work. Keep the content concise and meaningful.",
+       "link": ""
+    },
     {
-    "image": " ",
-    "name": "College Recruitment Website",
-    "description": "",
-    "link": ""
-  }
-]
+      "image": "",
+      "title": "Haloween Animations",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    },
+     {
+      "image": "",
+      "title": "Toy Bird Website",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    },
+     {
+      "image": "",
+      "title": "Wildcard Website",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    },
+       {
+      "image": "",
+      "title": "Hangman Website",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    },
+       {
+      "image": "",
+      "title": "Presidential Website",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    },
+       {
+      "image": "",
+      "title": "Rock, Paper, Scissors Website",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    },
+       {
+      "image": "",
+      "title": "Name Generator Website",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    },
+       {
+      "image": "",
+      "title": "Mad Lib Website",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    },
+       {
+      "image": "",
+      "title": "FAMOUS",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    },
+       {
+      "image": "",
+      "title": "Monthly Website",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    },
+       {
+      "image": "",
+      "title": "Summer-tainment Website",
+      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+       "link": ""
+    }
+  ],
 
 
 
@@ -52,25 +147,97 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  "Sophomore Year": [
+    {
+      "image": "",
+      "title": "Cancer Center / Program Project",
+      "description": "A sophomore year course project or achievement summary."
+    },
+    {
+      "image": "",
+      "title": "Coffee Shop",
+      "description": "Another sophomore year experience, such as leadership, clubs, or academic work."
+    },
+    {
+      "image": "",
+      "title": "Album Covers",
+      "description": "A third sophomore year highlight."
+    },
+      {
+      "image": "",
+      "title": "Vacation Website",
+      "description": "A third sophomore year highlight."
+    },
+      {
+      "image": "",
+      "title": "Farmers Market",
+      "description": "A third sophomore year highlight."
+    },
+      {
+      "image": "",
+      "title": "Designer Tribute",
+      "description": "A third sophomore year highlight."
+    },
+      {
+      "image": "",
+      "title": "Puppies",
+      "description": "A third sophomore year highlight."
+    },
+      {
+      "image": "",
+      "title": "First 10 Elements",
+      "description": "A third sophomore year highlight."
+    },
+      {
+      "image": "",
+      "title": "Sophomore Portfolio",
+      "description": "A third sophomore year highlight."
+    },
+      {
+      "image": "",
+      "title": "Falling Leaves Tutorial",
+      "description": "A third sophomore year highlight."
+    },
+         {
+      "image": "",
+      "title": "NJ Lighthouses",
+      "description": "A third sophomore year highlight."
+    },
+         {
+      "image": "",
+      "title": "Nav Bar",
+      "description": "A third sophomore year highlight."
+    },
+         {
+      "image": "",
+      "title": "Halloween Movie",
+      "description": "A third sophomore year highlight."
+    },
+         {
+      "image": "",
+      "title": "Perfect Pumpkin Pie",
+      "description": "A third sophomore year highlight."
+    },
+         {
+      "image": "",
+      "title": "Chess Board",
+      "description": "A third sophomore year highlight."
+    },
+         {
+      "image": "",
+      "title": "Lets go Camping",
+      "description": "A third sophomore year highlight."
+    },
+         {
+      "image": "",
+      "title": "Solar System",
+      "description": "A third sophomore year highlight."
+    },
+         {
+      "image": "",
+      "title": "Hello World",
+      "description": "A third sophomore year highlight."
+    }
+  
+  ]
+}
