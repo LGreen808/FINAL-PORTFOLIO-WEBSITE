@@ -40,7 +40,7 @@
             </div>
         </div>
         </div>
-        <audio id="bg-music" loop>
+        <audio id="bg-music" autoplay loop>
     <source src="Gatsby-Music.mp3" type="audio/mpeg">
 </audio>
         </main>
@@ -69,10 +69,11 @@
         });
     } else {
         // If it's their first time on the site, wait for a click to start
-        document.addEventListener('click', () => {
-            audio.play();
-            sessionStorage.setItem('musicPlaying', 'true');
-        }, { once: true });
+    document.addEventListener('click', () => {
+    audio.play().then(() => {
+        sessionStorage.setItem('musicPlaying', 'true');
+    });
+}, { once: true });
     }
 
     // 2. Constantly save the exact second of the song as it plays
