@@ -33,27 +33,58 @@
         <div class="vertical-line secondary"></div>
          <div class="horizontal-line secondary"></div>
         <main class="d-flex justify-content-center align-items-center min-vh-50">
-        <audio controls>
-
-        <div class="card bg-secondary mt-5">
-            <div class="card-body">
-            <h1 class="text-center"><a href="https://www.youtube.com/shorts/uwx46gRe6A0" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">Layla Green's Final Portfolio Website</a></h1>
-            </div>
+       <div class="card bg-secondary mt-5">
+        <div class="card-body">
+            <h1 class="text-center">
+                <a href="https://www.youtube.com/shorts/uwx46gRe6A0" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+                    Layla Green's Final Portfolio Website
+                </a>
+            </h1>
         </div>
+    </div>
 
-
-    
-<audio controls autoplay loop><source src="Gatsby-Music.mp3" type="audio/mpeg"></audio>
-        
+    <audio id="bg-music" loop>
+        <source src="Gatsby-Music.mp3" type="audio/mpeg">
+    </audio>
         </main>
         <footer>
             <!-- place footer here -->
         </footer>
         <!-- Bootstrap JavaScript Bundle (includes Popper) -->
-        <script
+        <script>
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"
-        ></script>
+    </script>
+<script>
+    const audio = document.getElementById('bg-music');
+
+    // 1. Check if music was already playing on the last page
+    if (sessionStorage.getItem('musicPlaying') === 'true') {
+        // Restore the exact second the music was at
+        const savedTime = sessionStorage.getItem('musicTime');
+        if (savedTime) audio.currentTime = parseFloat(savedTime);
+        
+        // Try to resume playing automatically
+        audio.play().catch(() => {
+            // If the browser blocks it, wait for a click to resume
+            document.addEventListener('click', () => audio.play(), { once: true });
+        });
+    } else {
+        // If it's their first time on the site, wait for a click to start
+        document.addEventListener('click', () => {
+            audio.play();
+            sessionStorage.setItem('musicPlaying', 'true');
+        }, { once: true });
+    }
+
+    // 2. Constantly save the exact second of the song as it plays
+    setInterval(() => {
+        if (!audio.paused) {
+            sessionStorage.setItem('musicTime', audio.currentTime);
+        }
+    }, 1000);
+</script>
+
     </body>
 </html>

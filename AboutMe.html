@@ -109,6 +109,9 @@
                 
             </div>
         </div>
+    <audio id="bg-music" loop>
+    <source src="Gatsby-Music.mp3" type="audio/mpeg">
+</audio>
         </main>
         <footer>
             <!-- place footer here -->
@@ -119,5 +122,34 @@
             integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
             crossorigin="anonymous"
         ></script>
+        <script>
+    const audio = document.getElementById('bg-music');
+
+    // 1. Check if music was already playing on the last page
+    if (sessionStorage.getItem('musicPlaying') === 'true') {
+        // Restore the exact second the music was at
+        const savedTime = sessionStorage.getItem('musicTime');
+        if (savedTime) audio.currentTime = parseFloat(savedTime);
+        
+        // Try to resume playing automatically
+        audio.play().catch(() => {
+            // If the browser blocks it, wait for a click to resume
+            document.addEventListener('click', () => audio.play(), { once: true });
+        });
+    } else {
+        // If it's their first time on the site, wait for a click to start
+        document.addEventListener('click', () => {
+            audio.play();
+            sessionStorage.setItem('musicPlaying', 'true');
+        }, { once: true });
+    }
+
+    // 2. Constantly save the exact second of the song as it plays
+    setInterval(() => {
+        if (!audio.paused) {
+            sessionStorage.setItem('musicTime', audio.currentTime);
+        }
+    }, 1000);
+</script>
     </body>
 </html>
