@@ -18,7 +18,7 @@ fetch('data.json')
 
             col.innerHTML = `
                 <div class="card h-100 shadow-sm">
-                    <img src="${projectImg}" class="card-img-top" alt="${project.title}">
+                    <img src="${projectImg}" class="card-img-top" alt="${project.image}">
                     <div class="card-body">
                         <h5 class="card-title">${project.title}</h5>
                         <p class="card-text text-muted">${project.description}</p>
