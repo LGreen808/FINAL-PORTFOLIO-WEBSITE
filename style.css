@@ -28,6 +28,21 @@ body.about-page {
     color: rgb(0, 75, 0);
 }
 
+/* This makes the cards sit next to each other like a grid */
+#my-card-holder {
+    display: flex;
+    gap: 20px;
+}
+
+/* This makes each individual card look like a pretty white box */
+.cool-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
 
 
 .vertical-line {
@@ -146,4 +161,79 @@ h1 {
 
 .bigger-card h1 {
     font-size: 3rem;
+}
+
+/* Portfolio carousel and professional card styles */
+.projects-carousel-wrapper {
+    position: relative;
+}
+.carousel-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+    padding: 0 1rem;
+}
+.carousel-button {
+    pointer-events: auto;
+    background: #ffffff;
+    border: 1px solid rgba(0,0,0,0.08);
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    cursor: pointer;
+    font-size: 20px;
+    color: #0b5132;
+}
+.projects-carousel {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 1rem 0.5rem;
+}
+.projects-carousel::-webkit-scrollbar { display: none; }
+.project-card {
+    min-width: 280px;
+    max-width: 320px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    overflow: hidden;
+    flex: 0 0 auto;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.project-card .card-img-top {
+    height: 160px;
+    object-fit: cover;
+    width: 100%;
+}
+.project-card .card-body {
+    padding: 1rem;
+}
+.project-card .card-title {
+    font-weight: 700;
+    color: #0b5132;
+    margin-bottom: 0.5rem;
+}
+.project-card .card-text {
+    color: #5a5a5a;
+    font-size: 0.95rem;
+    min-height: 48px;
+}
+.project-card .btn {
+    border-radius: 8px;
+}
+
+@media (max-width: 575px) {
+    .project-card { min-width: 240px; }
+    .carousel-button { width: 36px; height: 36px; font-size: 18px; }
 }

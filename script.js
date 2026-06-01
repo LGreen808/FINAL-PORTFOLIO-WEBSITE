@@ -1,35 +1,47 @@
-fetch('data.json')
+fetch('FullPortfolio.json')
     .then(response => response.json())
     .then(data => {
-        const container = document.getElementById('card-container');
+        // Helper to render a single year's carousel
+        function renderYear(yearKey, containerId) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+            const projects = data[yearKey] || [];
+            container.innerHTML = '';
 
-        // Choose which year you want to show on this page (e.g., "Senior Year")
-        const currentYearProjects = data["Senior Year"];
+            projects.forEach(project => {
+                const img = project.image && project.image.trim() !== '' ? project.image : 'https://via.placeholder.com/600x400?text=No+Image';
+                const link = project.link || '#';
 
-        currentYearProjects.forEach(project => {
-            const col = document.createElement('div');
-            col.className = 'col';
-
-            // Set up fallback placeholder image if yours is blank ""
-            const projectImg = project.image || "https://via.placeholder.com/300x150?text=Project+Image";
-            
-            // Set up fallback link if it's empty
-            const projectLink = project.link || "#";
-
-            col.innerHTML = `
-                <div class="card h-100 shadow-sm">
-                    <img src="${projectImg}" class="card-img-top" alt="${project.image}">
-                    <div class="card-body">
-                        <h5 class="card-title">${project.title}</h5>
-                        <p class="card-text text-muted">${project.description}</p>
+                const cardHTML = `
+                    <div class="project-card card h-100">
+                        <img src="${img}" class="card-img-top" alt="${project.title}">
+                        <div class="card-body">
+                            <h5 class="card-title">${project.title}</h5>
+                            <p class="card-text">${project.description || 'No description provided.'}</p>
+                            <a href="${link}" target="_blank" class="btn btn-success mt-2">View Project</a>
+                        </div>
                     </div>
-                    <div class="card-footer bg-transparent border-0 pb-3">
-                        <a href="${projectLink}" target="_blank" class="btn btn-outline-success w-100">View Project</a>
-                    </div>
-                </div>
-            `;
+                `;
 
-            container.appendChild(col);
-        });
+                container.innerHTML += cardHTML;
+            });
+
+            // Wire prev/next for this container
+            const prevBtn = document.getElementById('prev-' + containerId.split('-').pop());
+            const nextBtn = document.getElementById('next-' + containerId.split('-').pop());
+
+            function scrollAmount(dir = 1) {
+                const amount = Math.floor(container.clientWidth * 0.8) * dir;
+                container.scrollBy({ left: amount, behavior: 'smooth' });
+            }
+
+            if (prevBtn) prevBtn.onclick = () => scrollAmount(-1);
+            if (nextBtn) nextBtn.onclick = () => scrollAmount(1);
+        }
+
+        // Render each year into its own carousel
+        renderYear('Senior Year', 'myprojects-senior');
+        renderYear('Junior Year', 'myprojects-junior');
+        renderYear('Sophomore Year', 'myprojects-soph');
     })
-    .catch(error => console.error('Error fetching data:', error));
+    .catch(error => console.error('Error:', error));
