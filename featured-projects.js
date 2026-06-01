@@ -10,8 +10,7 @@ fetch('FeaturedProjects.json')
 
             projects.forEach(project => {
                 const img = project.image && project.image.trim() !== '' ? project.image : 'https://via.placeholder.com/600x400?text=No+Image';
-                const link = project.link && project.link.trim() !== '' ? project.link : '';
-                const buttonHTML = link ? `<a href="${link}" target="_blank" class="btn btn-success mt-2">View Project</a>` : '';
+                const link = project.link && project.link.trim() !== '' ? project.link : '#';
 
                 const cardHTML = `
                     <div class="project-card card h-100">
@@ -19,7 +18,7 @@ fetch('FeaturedProjects.json')
                         <div class="card-body">
                             <h5 class="card-title">${project.title}</h5>
                             <p class="card-text">${project.description || 'No description provided.'}</p>
-                            ${buttonHTML}
+                            <a href="${link}" target="_blank" class="btn btn-success mt-2">View Project</a>
                         </div>
                     </div>
                 `;
