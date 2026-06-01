@@ -98,6 +98,12 @@
             sessionStorage.setItem('musicTime', audio.currentTime);
         }
     }, 1000);
+
+    // 3. Loop the music when it ends
+    audio.addEventListener('ended', () => {
+        audio.currentTime = 0;
+        audio.play();
+    }, false);
 </script>
     </body>
 </html>
