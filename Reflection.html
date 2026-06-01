@@ -19,13 +19,16 @@
     <body>
         <header>
         <!--Nav Bar here-->
-               <nav class="site-nav">
-                    <a href="index.html">Home</a>
-                    <a href="FullPortfolio.html">Full Portfolio</a>
-                    <a href="FeaturedProjects.html">Featured Projects</a>
-                    <a href="Reflection.html">Reflection</a>
-                    <a href="AboutMe.html">About Me</a>
-                    <a href="FuturePlans.html">Future Plans</a>
+               <nav class="site-nav" style="justify-content: space-between; align-items: center;">
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; flex: 1;">
+                        <a href="index.html">Home</a>
+                        <a href="FullPortfolio.html">Full Portfolio</a>
+                        <a href="FeaturedProjects.html">Featured Projects</a>
+                        <a href="Reflection.html">Reflection</a>
+                        <a href="AboutMe.html">About Me</a>
+                        <a href="FuturePlans.html">Future Plans</a>
+                    </div>
+                    <button class="mute-button" id="mute-btn" aria-label="Mute music">🔊 Mute</button>
                 </nav>
         </header>
         <main>
@@ -45,6 +48,22 @@
         ></script>
         <script>
     const audio = document.getElementById('bg-music');
+    const muteBtn = document.getElementById('mute-btn');
+
+    // Handle mute button clicks
+    muteBtn.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+            muteBtn.textContent = '🔊 Mute';
+            muteBtn.classList.remove('muted');
+            sessionStorage.setItem('musicMuted', 'false');
+        } else {
+            audio.pause();
+            muteBtn.textContent = '🔇 Unmute';
+            muteBtn.classList.add('muted');
+            sessionStorage.setItem('musicMuted', 'true');
+        }
+    });
 
     // 1. Check if music was already playing on the last page
     if (sessionStorage.getItem('musicPlaying') === 'true') {
@@ -52,11 +71,19 @@
         const savedTime = sessionStorage.getItem('musicTime');
         if (savedTime) audio.currentTime = parseFloat(savedTime);
         
-        // Try to resume playing automatically
-        audio.play().catch(() => {
-            // If the browser blocks it, wait for a click to resume
-            document.addEventListener('click', () => audio.play(), { once: true });
-        });
+        // Check if music was muted
+        const wasMuted = sessionStorage.getItem('musicMuted') === 'true';
+        if (wasMuted) {
+            audio.pause();
+            muteBtn.textContent = '🔇 Unmute';
+            muteBtn.classList.add('muted');
+        } else {
+            // Try to resume playing automatically
+            audio.play().catch(() => {
+                // If the browser blocks it, wait for a click to resume
+                document.addEventListener('click', () => audio.play(), { once: true });
+            });
+        }
     } else {
         // If it's their first time on the site, wait for a click to start
         document.addEventListener('click', () => {

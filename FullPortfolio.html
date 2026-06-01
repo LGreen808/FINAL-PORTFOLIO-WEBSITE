@@ -16,13 +16,16 @@
 
     <body class="about-page">
         <header>
-            <nav class="site-nav">
-                <a href="index.html">Home</a>
-                <a href="FullPortfolio.html">Full Portfolio</a>
-                <a href="FeaturedProjects.html">Featured Projects</a>
-                <a href="Reflection.html">Reflection</a>
-                <a href="AboutMe.html">About Me</a>
-                <a href="FuturePlans.html">Future Plans</a>
+            <nav class="site-nav" style="justify-content: space-between; align-items: center;">
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; flex: 1;">
+                    <a href="index.html">Home</a>
+                    <a href="FullPortfolio.html">Full Portfolio</a>
+                    <a href="FeaturedProjects.html">Featured Projects</a>
+                    <a href="Reflection.html">Reflection</a>
+                    <a href="AboutMe.html">About Me</a>
+                    <a href="FuturePlans.html">Future Plans</a>
+                </div>
+                <button class="mute-button" id="mute-btn" aria-label="Mute music">🔊 Mute</button>
             </nav>
         </header>
         
@@ -58,8 +61,8 @@
                 <h2 class="green-text">Sophomore Year</h2>
                 <div class="projects-carousel-wrapper">
                     <div class="carousel-controls">
-                        <button class="carousel-button" id="prev-soph" aria-label="Previous Sophomore">&#8249;</button>
-                        <button class="carousel-button" id="next-soph" aria-label="Next Sophomore">&#8250;</button>
+                        <button class="carousel-button" id="prev-soph" aria-label="Previous Sophomore">DONT CLICK ME</button>
+                        <button class="carousel-button" id="next-soph" aria-label="Next Sophomore">DONT CLICK ME</button>
                     </div>
                     <div id="myprojects-soph" class="projects-carousel" data-year="Sophomore Year"></div>
                 </div>
@@ -81,14 +84,38 @@
         <script>
         
             const audio = document.getElementById('bg-music');
+            const muteBtn = document.getElementById('mute-btn');
+
+            // Handle mute button clicks
+            muteBtn.addEventListener('click', () => {
+                if (audio.paused) {
+                    audio.play();
+                    muteBtn.textContent = '🔊 Mute';
+                    muteBtn.classList.remove('muted');
+                    sessionStorage.setItem('musicMuted', 'false');
+                } else {
+                    audio.pause();
+                    muteBtn.textContent = '🔇 Unmute';
+                    muteBtn.classList.add('muted');
+                    sessionStorage.setItem('musicMuted', 'true');
+                }
+            });
 
             if (sessionStorage.getItem('musicPlaying') === 'true') {
                 const savedTime = sessionStorage.getItem('musicTime');
                 if (savedTime) audio.currentTime = parseFloat(savedTime);
                 
-                audio.play().catch(() => {
-                    document.addEventListener('click', () => audio.play(), { once: true });
-                });
+                // Check if music was muted
+                const wasMuted = sessionStorage.getItem('musicMuted') === 'true';
+                if (wasMuted) {
+                    audio.pause();
+                    muteBtn.textContent = '🔇 Unmute';
+                    muteBtn.classList.add('muted');
+                } else {
+                    audio.play().catch(() => {
+                        document.addEventListener('click', () => audio.play(), { once: true });
+                    });
+                }
             } else {
                 document.addEventListener('click', () => {
                     audio.play();

@@ -43,7 +43,7 @@
       "link": ""
     },
        {
-      "image": "",
+      "image": "img/Senior6.png",
       "title": "College Recruitment",
       "description": "This was our first project of Senior Year, we had to choose a college and create a website about them.",
       "link": ""
@@ -57,13 +57,13 @@
        "link": ""
     },
     {
-      "image": "",
+      "image": "img/Junior8.png",
       "title": "Magic 8 Ball",
       "description": "Another junior year experience, such as leadership, clubs, or academic work. Keep the content concise and meaningful.",
        "link": ""
     },
     {
-      "image": "",
+      "image": "img/Junior3.png",
       "title": "Haloween Animations",
       "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
        "link": ""
@@ -75,7 +75,7 @@
        "link": ""
     },
      {
-      "image": "",
+      "image": "img/Junior6.png",
       "title": "Wildcard Website",
       "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
        "link": ""
@@ -87,19 +87,19 @@
        "link": ""
     },
        {
-      "image": "",
+      "image": "img/Junior11.png",
       "title": "Presidential Website",
       "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
-       "link": ""
+       "link": "https://github.com/LGreen808/Presidental-Monthy-Website"
     },
        {
-      "image": "",
+      "image": "img/Junior7.png",
       "title": "Rock, Paper, Scissors Website",
       "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
-       "link": ""
+       "link": "https://github.com/LGreen808/Rock-Paper-Scissors-Monthly-Website"
     },
        {
-      "image": "",
+      "image": "img/Junior10.png",
       "title": "Name Generator Website",
       "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
        "link": ""
@@ -148,7 +148,8 @@
       {
       "image": "",
       "title": "Vacation Website",
-      "description": "A third sophomore year highlight."
+      "description": "A third sophomore year highlight.",
+      "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
     },
       {
       "image": "",
@@ -158,7 +159,8 @@
       {
       "image": "",
       "title": "Designer Tribute",
-      "description": "A third sophomore year highlight."
+      "description": "A third sophomore year highlight.",
+      "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
     },
       {
       "image": "",
