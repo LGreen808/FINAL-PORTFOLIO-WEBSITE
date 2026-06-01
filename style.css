@@ -166,6 +166,7 @@ h1 {
 /* Portfolio carousel and professional card styles */
 .projects-carousel-wrapper {
     position: relative;
+    min-height: 220px;
 }
 .carousel-controls {
     position: absolute;
@@ -176,12 +177,13 @@ h1 {
     display: flex;
     justify-content: space-between;
     pointer-events: none;
-    padding: 0 1rem;
+    padding: 0 3rem;
+    z-index: 3;
 }
 .carousel-button {
     pointer-events: auto;
-    background: #ffffff;
-    border: 1px solid rgba(0,0,0,0.08);
+    background: rgba(255,255,255,0.95);
+    border: 1px solid rgba(0,0,0,0.12);
     border-radius: 50%;
     width: 42px;
     height: 42px;
@@ -192,6 +194,12 @@ h1 {
     cursor: pointer;
     font-size: 20px;
     color: #0b5132;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+.carousel-button:hover,
+.carousel-button:focus {
+    background-color: #e6f7e6;
+    transform: scale(1.05);
 }
 .projects-carousel {
     display: flex;
@@ -210,6 +218,12 @@ h1 {
     overflow: hidden;
     flex: 0 0 auto;
     border: 1px solid rgba(0,0,0,0.05);
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project-card:hover {
+    background-color: #e6f7e6;
+    transform: translateY(-3px);
+    box-shadow: 0 14px 34px rgba(0,100,0,0.12);
 }
 .project-card .card-img-top {
     height: 160px;
