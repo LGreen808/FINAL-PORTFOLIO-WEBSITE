@@ -31,11 +31,48 @@
                     <button class="mute-button" id="mute-btn" aria-label="Mute music">🔊 Mute</button>
                 </nav>
         </header>
-        <main>
-<h1 class="green-text mt-5">Featured Projects</h1>
-        <audio id="bg-music" autoplay loop>
-    <source src="Gatsby-Music.mp3" type="audio/mpeg">
-</audio>
+        <main class="container mt-5">
+            <h1 class="text-center green-text mb-4">Featured Projects</h1>
+            
+            <!-- Senior Year -->
+            <section class="year-section mt-4">
+                <h2 class="green-text">Senior Year</h2>
+                <div class="projects-carousel-wrapper">
+                    <div class="carousel-controls">
+                        <button class="carousel-button" id="prev-senior" aria-label="Previous Senior">&#8249;</button>
+                        <button class="carousel-button" id="next-senior" aria-label="Next Senior">&#8250;</button>
+                    </div>
+                    <div id="featured-senior" class="projects-carousel" data-year="Senior Year"></div>
+                </div>
+            </section>
+
+            <!-- Junior Year -->
+            <section class="year-section mt-5">
+                <h2 class="green-text">Junior Year</h2>
+                <div class="projects-carousel-wrapper">
+                    <div class="carousel-controls">
+                        <button class="carousel-button" id="prev-junior" aria-label="Previous Junior">&#8249;</button>
+                        <button class="carousel-button" id="next-junior" aria-label="Next Junior">&#8250;</button>
+                    </div>
+                    <div id="featured-junior" class="projects-carousel" data-year="Junior Year"></div>
+                </div>
+            </section>
+
+            <!-- Sophomore Year -->
+            <section class="year-section mt-5 mb-4">
+                <h2 class="green-text">Sophomore Year</h2>
+                <div class="projects-carousel-wrapper">
+                    <div class="carousel-controls">
+                        <button class="carousel-button" id="prev-soph" aria-label="Previous Sophomore">&#8249;</button>
+                        <button class="carousel-button" id="next-soph" aria-label="Next Sophomore">&#8250;</button>
+                    </div>
+                    <div id="featured-soph" class="projects-carousel" data-year="Sophomore Year"></div>
+                </div>
+            </section>
+            
+            <audio id="bg-music" loop>
+                <source src="Gatsby-Music.mp3" type="audio/mpeg">
+            </audio>
         </main>
         <footer>
             <!-- place footer here -->
@@ -106,5 +143,7 @@
         audio.play();
     }, false);
 </script>
+
+        <script src="featured-projects.js"></script>
     </body>
 </html>

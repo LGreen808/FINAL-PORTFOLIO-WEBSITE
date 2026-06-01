@@ -1,4 +1,4 @@
-fetch('FullPortfolio.json')
+fetch('FeaturedProjects.json')
     .then(response => response.json())
     .then(data => {
         // Helper to render a single year's carousel
@@ -41,8 +41,8 @@ fetch('FullPortfolio.json')
         }
 
         // Render each year into its own carousel
-        renderYear('Senior Year', 'myprojects-senior');
-        renderYear('Junior Year', 'myprojects-junior');
-        renderYear('Sophomore Year', 'myprojects-soph');
+        renderYear('Senior Year', 'featured-senior');
+        renderYear('Junior Year', 'featured-junior');
+        renderYear('Sophomore Year', 'featured-soph');
     })
     .catch(error => console.error('Error:', error));

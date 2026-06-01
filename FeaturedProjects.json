@@ -1,0 +1,68 @@
+{
+  "Senior Year": [
+    {
+      "image": "img/Senior1.png",
+      "title": "The Client Project",
+      "description": "This was our last project of Senior Year, we had to pick a client and create a website for them.",
+      "link": "https://github.com/LGreen808/Marlboro-High-School-Hitching-Post"
+    },
+    {
+      "image": "img/Senior2.png",
+      "title": "The MHS Clubs Project",
+      "description": "Worked on this project with Hayley and Cooper. We basically made an easier way for students in this school to find clubs.",
+      "link": "https://coppercoder227.github.io/GuideToThings/"
+    },
+    {
+      "image": "img/Senior3.png",
+      "title": "Winter Holiday and Traditions Website",
+      "description": "This was a project that we did leading up to winter break. We had to create a website based off of a holiday, season, tradition, or celebration of our choice. I chose to do a holiday advent calendar.",
+      "link": "https://lgreen808.github.io/Holiday-Project-1/"
+    }
+  ],
+  "Junior Year": [
+    {
+      "image": "img/Junior8.png",
+      "title": "Magic 8 Ball",
+      "description": "An interactive Magic 8 Ball website that generates random answers to user questions.",
+      "link": ""
+    },
+    {
+      "image": "img/Junior3.png",
+      "title": "Haloween Animations",
+      "description": "A Halloween-themed website featuring creative CSS animations and interactive elements.",
+      "link": ""
+    },
+    {
+      "image": "img/Junior6.png",
+      "title": "Wildcard Website",
+      "description": "A creative project showcasing unique design and development skills.",
+      "link": ""
+    },
+    {
+      "image": "img/Junior7.png",
+      "title": "Rock, Paper, Scissors Website",
+      "description": "An interactive game website where users can play Rock, Paper, Scissors against the computer.",
+      "link": "https://github.com/LGreen808/Rock-Paper-Scissors-Monthly-Website"
+    }
+  ],
+  "Sophomore Year": [
+    {
+      "image": "",
+      "title": "Vacation Website",
+      "description": "A website project showcasing a vacation destination with design and layout skills.",
+      "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
+    },
+    {
+      "image": "",
+      "title": "Designer Tribute",
+      "description": "A tribute website dedicated to a famous designer, featuring their work and biography.",
+      "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
+    },
+    {
+      "image": "",
+      "title": "Coffee Shop",
+      "description": "A website project for a coffee shop, demonstrating business website design principles.",
+      "link": ""
+    }
+  ]
+}
