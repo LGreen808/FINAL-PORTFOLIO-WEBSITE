@@ -288,9 +288,10 @@ h2 {
     margin-bottom: 0.5rem;
 }
 .project-card .card-text {
-    color: #5a5a5a;
+    color: #000000;
     font-size: 0.95rem;
     min-height: 48px;
+    font-weight: 400;
 }
 .project-card .btn {
     border-radius: 8px;
@@ -302,6 +303,13 @@ h2 {
 .interests-cards .card .card-title {
     color: #000000;
     font-weight: 800;
+}
+
+/* Small card body text: dark but not bold */
+.cool-card .card-text,
+.interests-cards .card .card-text {
+    color: #000000;
+    font-weight: 400;
 }
 
 /* Interest and Hobbies Cards Hover */
