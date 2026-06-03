@@ -205,23 +205,26 @@
          {
       "image": "",
       "title": "Chess Board",
-      "description": "A third sophomore year highlight."
+      "description": "A third sophomore year highlight.",
+      "link": ""
     },
          {
-      "image": "",
+      "image": "img/BadGatsby3.jpeg",
       "title": "Lets go Camping",
-      "description": "A third sophomore year highlight."
+      "description": "Unfortunately I could not find this project on Replit.",
+      "link": "https://www.youtube.com/shorts/HBB3Dhh14PM"
     },
          {
       "image": "img/BadGatsby1.webp",
       "title": "Solar System",
-      "description": "A third sophomore year highlight.",
+      "description": "This was our first project project in the Web Design Program. We had to design and create a website that teaches kids (around age 6) about the planets in our solar system and we had to provide a link to NASA. Unfortunately I could not find this project on Replit. We used HTML and CSS for this project.",
       "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
     },
          {
-      "image": "",
+      "image": "img/BadGatsby2.webp",
       "title": "Hello World",
-      "description": "A third sophomore year highlight."
+      "description": "This was one of our earliest projects in Sophomore Year, in this project we were introduced to HTML and used Replit for the first time. Unfortunately I could not find this project on Replit and I did have a page of notes but unfortunately they were blank and there was just a diagram of Peter Griffin to represent HTML tags.",
+      "link": "https://www.youtube.com/watch?v=yD5g1CytYO0"
     }
   
   ]

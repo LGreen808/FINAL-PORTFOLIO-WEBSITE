@@ -1,3 +1,5 @@
+@import url('https://use.typekit.net/vcq4tib.css');
+
 title {
     font-size: 12px;
 }
@@ -6,6 +8,8 @@ body {
     background-color: #051223;
     background-image: linear-gradient(rgba(5,18,35,0.75), rgba(5,18,35,0.75)), url('img/Possible Background.webp');
     background-position: right center;
+    font-family: "tiller", sans-serif;
+    font-weight: 400;
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
