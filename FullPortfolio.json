@@ -133,17 +133,20 @@
     {
       "image": "",
       "title": "Cancer Center / Program Project",
-      "description": "A sophomore year course project or achievement summary."
+      "description": "A sophomore year course project or achievement summary.",
+      "link": ""
     },
     {
       "image": "",
       "title": "Coffee Shop",
-      "description": "Another sophomore year experience, such as leadership, clubs, or academic work."
+      "description": "Another sophomore year experience, such as leadership, clubs, or academic work.",
+      "link": ""
     },
     {
       "image": "",
       "title": "Album Covers",
-      "description": "A third sophomore year highlight."
+      "description": "A third sophomore year highlight.",
+      "link": ""
     },
       {
       "image": "",
@@ -154,7 +157,8 @@
       {
       "image": "",
       "title": "Farmers Market",
-      "description": "A third sophomore year highlight."
+      "description": "A third sophomore year highlight.",
+      "link": ""
     },
       {
       "image": "",
@@ -165,53 +169,67 @@
       {
       "image": "",
       "title": "Puppies",
-      "description": "A third sophomore year highlight."
+      "description": "A third sophomore year highlight.",
+      "link": ""
     },
       {
       "image": "",
       "title": "First 10 Elements",
-      "description": "A third sophomore year highlight."
+      "description": "A third sophomore year highlight.",
+      "link": ""
     },
       {
       "image": "",
       "title": "Sophomore Portfolio",
-      "description": "A third sophomore year highlight."
+      "description": "A third sophomore year highlight.",
+      "link": ""
     },
       {
       "image": "",
       "title": "Falling Leaves Tutorial",
-      "description": "A third sophomore year highlight."
+      "description": "A third sophomore year highlight.",
+      "link": " "
     },
          {
       "image": "",
       "title": "NJ Lighthouses",
-      "description": "A third sophomore year highlight."
+      "description": "A third sophomore year highlight.",
+      "link": "https://www.youtube.com/watch?v=A1-XFXX8rU4"
     },
          {
       "image": "",
       "title": "Nav Bar",
-      "description": "A third sophomore year highlight."
-    },
-         {
-      "image": "",
-      "title": "Halloween Movie",
-      "description": "A third sophomore year highlight."
-    },
-         {
-      "image": "",
-      "title": "Perfect Pumpkin Pie",
-      "description": "A third sophomore year highlight."
-    },
-         {
-      "image": "",
-      "title": "Chess Board",
-      "description": "A third sophomore year highlight.",
+      "description": "This project was a partner project but honestly I forgot if I worked with a partner or not. In this project ",
       "link": ""
     },
+          {
+      "image": "img/BadGatsby5.jpeg",
+      "title": "Divs and Gradients",
+      "description": "In this project we just practiced with divs and gradients, it was not an actual website, just practice. In this project we used HTML and CSS. Unfortunately I could not find this project on Replit.",
+      "link": "https://www.youtube.com/watch?v=2FlG1Z6jY-0"
+    },
          {
-      "image": "img/BadGatsby3.jpeg",
+      "image": "img/BadGatsby7.jpeg",
+      "title": "Halloween Movie Recommendations!",
+      "description": "In this project we had to make a couple of Halloween movie recommendations. This project was a website. In this project there was a focus on using fonts, iframes, and hovers. We used HTML and CSS. Unfortunately I could not find this project on Replit.",
+      "link": "https://www.youtube.com/watch?v=w5vZOb3W9-8"
+    },
+         {
+      "image": "img/BadGatsby6.webp",
+      "title": "Perfect Pumpkin Pie",
+      "description": "In this project we had to use what we learned about lists and tables so far and put a recipe for pumpkin pie into code, using HTML. This project was practice and a website. Unfortunately I could not find this project on Replit. In this project we used HTML and CSS.",
+      "link": "https://www.youtube.com/watch?v=zce7hUqxSjM"
+    },
+         {
+      "image": "img/BadGatsby4.jpeg",
+      "title": "Chess Board",
+      "description": "In this project we had to create an 8 by 8 chess board, using the table, tr, and td tags to build it and unlike the previous two projects this was not a website just building a chess board. Unfortunately I could not find this project on Replit. In this project we used HTML and CSS.",
+      "link": "https://www.youtube.com/watch?v=CUtjyk946uc"
+    },
+         {
+      "image": "img/BadGatsby3.webp",
       "title": "Lets go Camping",
-      "description": "Unfortunately I could not find this project on Replit.",
+      "description": "In this project we had to design / create a one-page website that helps someone who has never gone camping be prepared. We praticed some HTML tags such as ordered list, list item, and etc.Unfortunately I could not find this project on Replit. We used HTML and CSS in this project.",
       "link": "https://www.youtube.com/shorts/HBB3Dhh14PM"
     },
          {
