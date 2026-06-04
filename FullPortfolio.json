@@ -3,50 +3,39 @@
     {
       "image": "img/Senior1.png",
       "title": "The Client Project",
-      "description": "This was our last project of Senior Year, we had to pick a client and create a website for them.",
+      "description": "This was our last project of Senior Year, we had to pick a client and create a website for them. I chose to do a website about the Marlboro High School Newspaper. In the website I used HTML and CSS.",
       "link": "https://github.com/LGreen808/Marlboro-High-School-Hitching-Post"
     },
     {
       "image": "img/Senior2.png",
-      "title": "The MHS Clubs Project",
-      "description": "Worked on this project with Hayley and Cooper. We basically made an easier way for students in this school to find clubs.",
+      "title": "The MRHS Website Design Challenge",
+      "description": "Worked on this project with Hayley and Cooper. We basically made an easier way for students in this school to find clubs. In this project we all had to work on separate branches and commit back to a main branch. We used JSON, HTML, CSS, JavaScript, Bootstrap, and etc.",
       "link": "https://coppercoder227.github.io/GuideToThings/"
     },
     {
       "image": "img/Senior3.png",
       "title": "Winter Holiday and Traditions Website",
-      "description": "This was a project that we did leading up to winter break. We had to create a website based off of a holiday, season, tradition, or celebration of our choice. I chose to do a holiday advent calendar.",
+      "description": "This was a project that we did leading up to winter break. We had to create an interactive website based off of a holiday, season, tradition, or celebration of our choice. I chose to do a holiday advent calendar. In this project I used HTML, CSS, Bootstrap, JSON, Vue, and the concept of having cards flip up at reveal text on the back of it.",
       "link": "https://lgreen808.github.io/Holiday-Project-1/"
     },
       {
       "image": "img/Senior4.png",
       "title": "Movie Poster",
-      "description": " ",
+      "description": "In this project we had to create a movie poster gallery using Vue.js, JSON, HTML, CSS, JavaScript, and Bootstrap and we were given a template to start out on. We just had to replace and add information in, with our own top 10 movies.",
       "link": "https://github.com/LGreen808/Layla-NJIT-3_StarterFiles"
     },
        {
-      "image": "img/Senior5.png",
-      "title": "JQuery Project",
-      "description": "This was our first project of Senior Year, we had to choose a college and create a website about them.",
-      "link": ""
+      "image": "img/Senior7.png",
+      "title": "JSON/ASYNC/AWAIT Project",
+      "description": "In this project we had to create a website that loaded our schedule and 3 other people's schedules using JSON, HTML, CSS, JavaScript, and Bootstrap. I made this project Frankenstein theme because the new movie had just come out and I was really interested in it.",
+      "link": "https://github.com/LGreen808/JSON-AJAX-AND-ETC-PROJECT"
     },
-       {
-      "image": "",
-      "title": "JSON Lessons",
-      "description": "This was our first project of Senior Year, we had to choose a college and create a website about them.",
-      "link": ""
-    },
-       {
-      "image": "",
-      "title": "Refresher Websites",
-      "description": "This was our first project of Senior Year, we had to choose a college and create a website about them.",
-      "link": ""
-    },
+ 
        {
       "image": "img/Senior6.png",
       "title": "College Recruitment",
-      "description": "This was our first project of Senior Year, we had to choose a college and create a website about them.",
-      "link": ""
+      "description": "This was our first project of Senior Year, we had to choose a college and create a website about them, this project was basically a refresher thing to get us back into the swing of things. In this project I used HTML and CSS.",
+      "link": "https://github.com/LGreen808/college-web"
     }
   ],
   "Junior Year": [

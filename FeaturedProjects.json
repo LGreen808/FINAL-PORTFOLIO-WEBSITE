@@ -3,19 +3,19 @@
     {
       "image": "img/Senior1.png",
       "title": "The Client Project",
-      "description": "This was our last project of Senior Year, we had to pick a client and create a website for them.",
+      "description": "This was our last project of Senior Year, we had to pick a client and create a website for them. I chose to do a website about the Marlboro High School Newspaper. In the website I used HTML and CSS.",
       "link": "https://github.com/LGreen808/Marlboro-High-School-Hitching-Post"
     },
     {
       "image": "img/Senior2.png",
-      "title": "The MHS Clubs Project",
-      "description": "Worked on this project with Hayley and Cooper. We basically made an easier way for students in this school to find clubs.",
+      "title": "The MRHS Website Design Challenge",
+      "description": "Worked on this project with Hayley and Cooper. We basically made an easier way for students in this school to find clubs. In this project we all had to work on separate branches and commit back to a main branch. We used JSON, HTML, CSS, JavaScript, Bootstrap, and etc.",
       "link": "https://coppercoder227.github.io/GuideToThings/"
     },
     {
       "image": "img/Senior3.png",
       "title": "Winter Holiday and Traditions Website",
-      "description": "This was a project that we did leading up to winter break. We had to create a website based off of a holiday, season, tradition, or celebration of our choice. I chose to do a holiday advent calendar.",
+      "description": "This was a project that we did leading up to winter break. We had to create an interactive website based off of a holiday, season, tradition, or celebration of our choice. I chose to do a holiday advent calendar. In this project I used HTML, CSS, Bootstrap, JSON, Vue, and the concept of having cards flip up at reveal text on the back of it.",
       "link": "https://lgreen808.github.io/Holiday-Project-1/"
     }
   ],
