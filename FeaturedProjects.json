@@ -58,11 +58,11 @@
       "description": "A tribute website dedicated to a famous designer, featuring their work and biography.",
       "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
     },
-    {
-      "image": "",
-      "title": "Coffee Shop",
-      "description": "A website project for a coffee shop, demonstrating business website design principles.",
-      "link": ""
+         {
+      "image": "img/BadGatsby1.webp",
+      "title": "Solar System",
+      "description": "This was our first project project in the Web Design Program. We had to design and create a website that teaches kids (around age 6) about the planets in our solar system and we had to provide a link to NASA. Unfortunately I could not find this project on Replit. We used HTML and CSS for this project.",
+      "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
     }
   ]
 }

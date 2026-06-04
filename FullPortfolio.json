@@ -131,81 +131,93 @@
   ],
   "Sophomore Year": [
     {
-      "image": "",
-      "title": "Cancer Center / Program Project",
-      "description": "A sophomore year course project or achievement summary.",
-      "link": ""
+      "image": "img/BadGatsby21.jpeg",
+      "title": "Global Cancer Disparities Initiative: Tri-Fold Brochure and Website",
+      "description": "This project was both a website and a brochure. In this project we had to create a website and a brochure to help radiologists and oncologists at Memorial Sloan Kettering Cancer Center promote the Global Cancer Disparities Initiatives program. Unfortunately I can not find this project. In this project we used Canva, HTML, CSS, and Bootstrap.",
+      "link": "https://www.youtube.com/watch?v=F1oKhsy8wGw&list=RDF1oKhsy8wGw&start_radio=1"
     },
     {
-      "image": "",
+      "image": "img/BadGatsby20.jpg",
       "title": "Coffee Shop",
-      "description": "Another sophomore year experience, such as leadership, clubs, or academic work.",
-      "link": ""
+      "description": "In this project we had to bascially redo a coffee shop website and put our own spin on it. In this project we used, HTML, CSS, Bootstrap, and we created Wireframes as well. Unfortunately I was not able to find this project.",
+      "link": "https://www.youtube.com/watch?v=0CzEr7YT5oI&list=RD0CzEr7YT5oI&start_radio=1"
     },
     {
-      "image": "",
-      "title": "Album Covers",
-      "description": "A third sophomore year highlight.",
-      "link": ""
+      "image": "img/BadGatsby19.jpg",
+      "title": "My Favorite Album Covers (Bootstrap Flex Practice)",
+      "description": "In this project we had to pick 9 of our favorite music album covers and we worked with Bootstrap Flex properties to layout the images on our sites. In this project we used HTML, CSS, and Bootstrap. Unfortunately I could not find this project.",
+      "link": "https://www.youtube.com/watch?v=sM3hnwngjdM"
     },
       {
-      "image": "",
+      "image": "img/BadGatsby18.jpg",
       "title": "Vacation Website",
-      "description": "A third sophomore year highlight.",
+      "description": "This project was our TCA 3. In this project we had to make a website about a place we want to vacation too, I chose Las Vegas. And we basically just had to follow the rubric given to us. Unfortunately I could not find this project. In this project we used HTML, CSS, and Bootstrap.",
       "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
     },
       {
-      "image": "",
-      "title": "Farmers Market",
-      "description": "A third sophomore year highlight.",
-      "link": ""
+      "image": "img/BadGatsby17.webp",
+      "title": "Farmers Market - Bootstrap Rows & Columns",
+      "description": "In this project we had to design / create a one-page website for the Marlboro Farmer's Market using images we were given. This project was to continue practicing using Bootstrap rows and columns to design responsive layouts. Unfortunately I could not find this website. In this project we used HTML, CSS, and Bootstrap.",
+      "link": "https://www.youtube.com/watch?v=ZQHhiZUNM3Q"
     },
       {
-      "image": "",
+      "image": "img/BadGatsby16.jpeg",
       "title": "Designer Tribute",
-      "description": "A third sophomore year highlight.",
+      "description": "In this project we had to choose a famous designer and create a website about them. I choose to do Nikola Tesla. Unfortunately I could not find this project. In this project we used HTML, CSS, and Bootstrap.",
       "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
     },
+          {
+      "image": "img/BadGatsby15.webp",
+      "title": "Bootstrap Image Carousel - MLK Jr. Tribute Page",
+      "description": "In this project we had to create a 3 image Bootstrap Carousel about Martin Luther King Jr. with left and right arrows, a title, a caption for each slide, and indicator buttons. Unfortunately I could not find this project. In this project we used Bootstrap, HTML, and CSS.",
+      "link": "https://www.youtube.com/watch?v=EwYjmMjwF_M&list=PLZbXA4lyCtqrtqI9ZBAJslu3sVzgqItiK&index=6"
+    },
       {
-      "image": "",
+      "image": "img/BadGatsby14.webp",
       "title": "Puppies",
-      "description": "A third sophomore year highlight.",
-      "link": ""
+      "description": "In this project it was a 3 step process. First we had to create a grid style image gallery and imput 9 images of puppies in it. Secondly we had to modify our puppy image gallery to include small, medium and large breakpoints with a different image layout for each. Then finally we had to add some cards that allow viewers to buy supplies a new dog owner would need, and an add to cart button for each card. In this project we used Bootstrap, HTML, and CSS.",
+      "link": "https://www.youtube.com/watch?v=QxL3vcwOL8E&list=PLZbXA4lyCtqrtqI9ZBAJslu3sVzgqItiK&index=5"
     },
       {
-      "image": "",
+      "image": "img/BadGatsby13.jpg",
       "title": "First 10 Elements",
-      "description": "A third sophomore year highlight.",
-      "link": ""
+      "description": "In this project we practiced using transformations and transitions to make an animated study guide for the first 10 elements on the periodic table. Unfortunately I could not find this project on Replit. In this project we used transitions, transformations, HTML, and CSS.",
+      "link": "https://www.youtube.com/watch?v=dhRABm5GgHc&list=PLZbXA4lyCtqrtqI9ZBAJslu3sVzgqItiK&index=3"
     },
       {
-      "image": "",
+      "image": "img/BadGatsby12.jpeg",
       "title": "Sophomore Portfolio",
-      "description": "A third sophomore year highlight.",
-      "link": ""
+      "description": "In this project we had to create a portfolio that included an About Me Page, a Project Page, a Nav Bar on each page, and etc. Unfortunately I could not find this project on Replit. In this project we used HTML, CSS, and Adobe Fonts.",
+      "link": "https://www.youtube.com/watch?v=vgZ-MV0YbMU&list=PLZbXA4lyCtqrtqI9ZBAJslu3sVzgqItiK&index=2"
     },
       {
-      "image": "",
-      "title": "Falling Leaves Tutorial",
-      "description": "A third sophomore year highlight.",
-      "link": " "
+      "image": "img/BadGatsby11.webp",
+      "title": "Falling Leaves - CSS Animation Beginner Tutorial",
+      "description": "In this assignment we had to watch a video and basically just follow along coding in replit. The tutorial was an introduction to adding animations, transformations, and translations to our CSS. Unfortunately I could not find this project on Replit. In this project we used HTML, CSS, and Adobe Fonts.",
+      "link": "https://www.youtube.com/watch?v=YtrT_Kbw16s&list=RDYtrT_Kbw16s&start_radio=1"
     },
          {
-      "image": "",
+      "image": "img/BadGatsby10.png",
       "title": "NJ Lighthouses",
-      "description": "A third sophomore year highlight.",
+      "description": "In this project we had to create and design a website that teaches visitors about lighthouses in New Jersey. We had to include information and images for 5 or more lighthouses in New Jersey. Unfortunately I could not find this project on Replit. In this project we used HTML, CSS, Adobe Fonts, and iframes.",
       "link": "https://www.youtube.com/watch?v=A1-XFXX8rU4"
     },
+           {
+      "image": "img/BadGatsby9.avif",
+      "title": "Teddy Bear Tutorial with CSS Position Property",
+      "description": "This project was a tutorial with CSS Position Property, and in the tutorial we created a Teddy Bear. Unfortunately I could not find this project on Replit. In this project we used HTML and CSS.",
+      "link": "https://www.youtube.com/watch?v=2Qz0AREgsdQ"
+    },
          {
-      "image": "",
-      "title": "Nav Bar",
-      "description": "This project was a partner project but honestly I forgot if I worked with a partner or not. In this project ",
-      "link": ""
+      "image": "img/BadGatsby8.jpeg",
+      "title": "How to....(Nav-Bar Partner Project)",
+      "description": "In this project we worked with a partner to design a multi-page how-to website, especially focusing on creating a well-designed and working nav bar. This project was a partner project but honestly I forgot if I worked with a partner or not. Unfortunately I could not find this project on Replit. In this project we used HTML, CSS, and Adobe Fonts.",
+      "link": "https://www.youtube.com/watch?v=38Ok9UaN1Tk"
     },
           {
       "image": "img/BadGatsby5.jpeg",
       "title": "Divs and Gradients",
-      "description": "In this project we just practiced with divs and gradients, it was not an actual website, just practice. In this project we used HTML and CSS. Unfortunately I could not find this project on Replit.",
+      "description": "In this project we just practiced with divs and gradients, it was not an actual website, just practice. In this project we used HTML and CSS. But unfortunately like a lot of these projects from Sophomore Year I could not find it on Replit.",
       "link": "https://www.youtube.com/watch?v=2FlG1Z6jY-0"
     },
          {
