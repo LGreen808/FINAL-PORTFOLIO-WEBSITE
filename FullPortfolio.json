@@ -111,23 +111,27 @@
        "link": ""
     },
        {
-      "image": "",
-      "title": "FAMOUS",
-      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
-       "link": ""
+      "image": "img/Junior4.png",
+      "title": "Look Ma, I'm FAMOUS!",
+      "description": "In this project we had to create an autobiographical website for a Famous Historical Figure born before 1900, I chose to do the director John Ford. In this project I used HTML, CSS, and create a wireframe.",
+       "link": "https://github.com/LGreen808/Hey-Look-Ma-Im-Famous-"
     },
        {
-      "image": "",
-      "title": "Monthly Website",
-      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
-       "link": ""
+      "image": "img/Junior2.png",
+      "title": "Monthly Website Gallery",
+      "description": "This project was a gallery with links and descriptions for the websites we had done / would do in the future, for Junior Year. In this project I used HTML and CSS.",
+       "link": "https://github.com/LGreen808/Monthy-Gallery-Website"
     },
        {
-      "image": "",
+      "image": "img/Junior1.png",
       "title": "Summer-tainment Website",
-      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
-       "link": ""
+      "description": "This was our first project of Junior Year, we basically just had to create a website about what we did over the summer. This project was to help us get back into the swing of things. In this project I used HTML, CSS, and GitHub (which was new to us at this point).",
+       "link": "https://github.com/LGreen808/Summer-tainment-site"
     }
+
+
+
+
   ],
   "Sophomore Year": [
     {

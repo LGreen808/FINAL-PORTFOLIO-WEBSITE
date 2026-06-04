@@ -46,16 +46,16 @@
     }
   ],
   "Sophomore Year": [
-    {
-      "image": "",
-      "title": "Vacation Website",
-      "description": "A website project showcasing a vacation destination with design and layout skills.",
-      "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
+     {
+      "image": "img/BadGatsby13.jpg",
+      "title": "First 10 Elements",
+      "description": "In this project we practiced using transformations and transitions to make an animated study guide for the first 10 elements on the periodic table. Unfortunately I could not find this project on Replit. In this project we used transitions, transformations, HTML, and CSS.",
+      "link": "https://www.youtube.com/watch?v=dhRABm5GgHc&list=PLZbXA4lyCtqrtqI9ZBAJslu3sVzgqItiK&index=3"
     },
     {
-      "image": "",
+      "image": "img/BadGatsby16.jpeg",
       "title": "Designer Tribute",
-      "description": "A tribute website dedicated to a famous designer, featuring their work and biography.",
+      "description": "In this project we had to choose a famous designer and create a website about them. I choose to do Nikola Tesla. Unfortunately I could not find this project. In this project we used HTML, CSS, and Bootstrap.",
       "link": "https://www.youtube.com/watch?v=tFkpixS3QZQ"
     },
          {
