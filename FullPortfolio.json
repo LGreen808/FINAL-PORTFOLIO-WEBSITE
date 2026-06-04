@@ -51,51 +51,57 @@
   ],
   "Junior Year": [
     {
-      "image": "",
+      "image": "img/Junior15.png",
       "title": "Postcard Generator",
-      "description": "A junior year course project or achievement summary. Use this card to highlight a class milestone or capstone experience.",
-       "link": ""
+      "description": "In this project we had to read and follow along with a tutorial on how to code a postcard generator in github. In this project I used HTML and CSS.",
+       "link": "https://github.com/LGreen808/Layla-Green-Postcard-Generator-Tutorial"
     },
     {
       "image": "img/Junior8.png",
       "title": "Magic 8 Ball",
-      "description": "Another junior year experience, such as leadership, clubs, or academic work. Keep the content concise and meaningful.",
-       "link": ""
+      "description": "In this project we had to create a Magic 8 Ball Game. We were given the basic functionality of the website and we had to enhance and customize it to make it unique. In this project I used HTML, CSS, and JavaScript.",
+       "link": "https://github.com/LGreen808/Magic-8-Ball-Project"
     },
     {
       "image": "img/Junior3.png",
-      "title": "Haloween Animations",
-      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
-       "link": ""
+      "title": "Halloween Animations",
+      "description": "In this project we had to watch two tutorial videos and recreate the CSS animation in VS code (obvious two separate projects), and after we recrated the tutoiral we had to modify the CSS to make it our own custom animations. In this project I used CSS and HTML.",
+       "link": "https://github.com/LGreen808/Web-Design-TCA-1"
     },
      {
-      "image": "",
+      "image": "img/Junior14.png",
       "title": "Toy Bird Website",
-      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
-       "link": ""
+      "description": "In this project we had to design / create a user-friendly website with a partner for a fake company called Little Bird Toy Company, we were given information and images about the company. In this project me and my partner used HTML, CSS, Bootstrap, JavaScript, and a Wireframe.",
+       "link": "https://www.youtube.com/watch?v=D_KTG0BzRiI&list=RDD_KTG0BzRiI&start_radio=0"
+    },
+      {
+      "image": "img/Junior13.png",
+      "title": "Team Roster Website",
+      "description": "In this project we had to create a fully interactive Team Roster Showcase website featuring a team of our choice. I chose to do the NHL's New York Rangers. In this project I used HTML, CSS, Bootstrap, Object-Oriented JavaScript, JavaScript, and a wireframe I created.",
+       "link": "https://github.com/LGreen808/May-Monthly-Website"
     },
      {
       "image": "img/Junior6.png",
       "title": "Wildcard Website",
-      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
-       "link": ""
+      "description": "This project was a wildcard website, meaning we could make whatever kind of website we wanted. I chose to do a website about the actor Gene Kelly. In this website I used HTML, CSS, JavaScript, Bootstrap, my own research, and my wireframe I created.",
+       "link": "https://github.com/LGreen808/April-Monthly-Website....Gene-Kelly"
     },
        {
-      "image": "",
+      "image": "img/Junior12.png",
       "title": "Hangman Website",
-      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
-       "link": ""
+      "description": "In this project we had to create a game of hangman. In this website I used HTML, CSS, JavaScript, and Bootstrap.",
+       "link": "https://github.com/LGreen808/Hangman-Monthly-Website"
     },
        {
       "image": "img/Junior11.png",
       "title": "Presidential Website",
-      "description": "A third junior year highlight. This can show skills, awards, or final-year goals.",
+      "description": "In this project we had to create a website about a President of the United States, the wheel of names assigned to me President Ronald Reagan. In this website I used HTML, CSS, a wireframe, and my own research.",
        "link": "https://github.com/LGreen808/Presidental-Monthy-Website"
     },
        {
       "image": "img/Junior7.png",
       "title": "Rock, Paper, Scissors Website",
-      "description": "",
+      "description": "In this project we had to create a Rock, Paper, Scissors game. In this website I used HTML, CSS, JavaScript, JavaScript Functions, and created my own wireframe.",
        "link": "https://github.com/LGreen808/Rock-Paper-Scissors-Monthly-Website"
     },
        {

@@ -20,29 +20,24 @@
     }
   ],
   "Junior Year": [
-    {
-      "image": "img/Junior8.png",
-      "title": "Magic 8 Ball",
-      "description": "An interactive Magic 8 Ball website that generates random answers to user questions.",
-      "link": ""
-    },
+  
     {
       "image": "img/Junior3.png",
       "title": "Haloween Animations",
       "description": "A Halloween-themed website featuring creative CSS animations and interactive elements.",
       "link": ""
     },
-    {
+     {
       "image": "img/Junior6.png",
       "title": "Wildcard Website",
-      "description": "A creative project showcasing unique design and development skills.",
-      "link": ""
+      "description": "This project was a wildcard website, meaning we could make whatever kind of website we wanted. I chose to do a website about the actor Gene Kelly. In this website I used HTML, CSS, JavaScript, Bootstrap, my own research, and my wireframe I created.",
+       "link": "https://github.com/LGreen808/April-Monthly-Website....Gene-Kelly"
     },
-    {
-      "image": "img/Junior7.png",
-      "title": "Rock, Paper, Scissors Website",
-      "description": "An interactive game website where users can play Rock, Paper, Scissors against the computer.",
-      "link": "https://github.com/LGreen808/Rock-Paper-Scissors-Monthly-Website"
+     {
+      "image": "img/Junior5.png",
+      "title": "Mad Lib Website",
+      "description": "In this project we had to create a website that was a Mab Lib, using HTML, CSS, and JavaScript.",
+       "link": "https://github.com/LGreen808/WorldSaladProject"
     }
   ],
   "Sophomore Year": [
